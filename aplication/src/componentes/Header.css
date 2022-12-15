@@ -1,0 +1,37 @@
+.header{
+    background-color: #FFD747;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo-home{
+    display: flex;
+    height: 100%;
+    width: 24%;
+    align-items: center;
+    justify-content: space-around;
+}
+.others{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+}
+.home-style:hover{
+    cursor: pointer;
+    font-size: 20px;
+    height: 80%;
+    border: 1px;
+    border-radius: 2px;
+    padding: 1;
+    display:flex;
+    justify-content: center;
+   align-items: center;
+    background-color: white;
+    color: #FFD747;
+}

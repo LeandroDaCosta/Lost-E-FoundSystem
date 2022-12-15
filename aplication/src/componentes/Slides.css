@@ -1,0 +1,20 @@
+.slide-style{
+    display: flex;
+    height: 300px;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+.box-style{
+    height: 195px;
+    width: 245px;
+    margin-left: 40px;
+    background-color: black;
+}
+.box-content{
+    justify-content: center;
+    display: flex;
+    height: 195px;
+    width: 100%;
+
+}
