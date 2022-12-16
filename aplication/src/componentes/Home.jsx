@@ -8,7 +8,7 @@ function Home(){
         <div className="content-style">
         <Header></Header>
         <div className="img-back"> </div>
-           <Slides></Slides> 
+          <Slides></Slides> 
             <div className="home-text">Encontra aqui o que voce perdeu ! </div>
             <div className="home-bottom">
                 <img src= {require("../images/Encontralogo.png")} className="home-bottom-1"></img>

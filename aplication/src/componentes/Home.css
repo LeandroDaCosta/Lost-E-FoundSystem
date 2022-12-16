@@ -6,13 +6,17 @@
     width: 100%;
     background-color: aqua;
     background-repeat: no-repeat;
-    background-image: url("../images/the-batman-2022-robert-pattinson-bruce-wayne-batman-logo-dark-hd-wallpaper-preview.jpg");
+    background-image: url("https://traversingtradition.files.wordpress.com/2022/10/garmin-b-ddkygrfvp40-unsplash.jpeg?w=1920&h=768&crop=1");
+    left:20px;
+}
+.arrow{
+    font-size: 10px;
 }
 .home-text{
 font-size: 50px;
 height: 150px;
 width: 100%;
-background-color:#bba556;
+background-color:#C19C17;
 align-items: center;
 display: flex;
 justify-content: center;
