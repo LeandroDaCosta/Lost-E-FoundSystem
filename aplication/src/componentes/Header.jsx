@@ -4,7 +4,9 @@ function Header (){
     <>
     <div className='header'>
         <div className='logo-home'>
+
 <img src={require("../images/Encontralogo.png")} alt="" className='image'></img>
+
 <div className='home-style'><p> Home</p></div>
         </div>
         <div className='others'>
