@@ -11,6 +11,7 @@ function Achado(){
                 <div className="img-back"> 
         
                         <img src={require("../images/fundo3.jpg")} className='ima' alt=""></img>
+                        <div></div>
 
                  </div>
 
