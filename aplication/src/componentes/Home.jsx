@@ -2,32 +2,20 @@
 import "./Home.css";
 import Header from "./Header"
 import Slides from "./Slides"
+import Footer from "./Footer";
 function Home(){
     return (
         <> 
         <div className="content-style">
         <Header></Header>
-        <div className="img-back"> </div>
+        <div className="img-back"> 
+        
+            <img src={require("../images/fundo2.jpg")} className='ima' alt=""></img>
+
+        </div>
            <Slides></Slides> 
             <div className="home-text">Encontra aqui o que voce perdeu ! </div>
-            <div className="home-bottom">
-                <img src= {require("../images/Encontralogo.png")} className="home-bottom-1"></img>
-                <div className="home-bottom-2"> 
-                <h2>Sobre nos</h2>
-                <p>Uma pequena equipa</p>
-                <p>de desenvolvimento</p>
-                <p>software</p>
-                <h2>Acerca</h2>
-                <p>software de apoio</p>
-                <p>aos estudantes do ISPTEC</p>
-                <p></p>
-                </div>
-                <div className="home-bottom-3">
-                    <h2> DESNVOLVIDORES</h2>
-                <p>Leandro da Costa</p>
-                <p>Romeno Joao</p>
-               </div>
-            </div>
+            <Footer></Footer>
         </div>
 
         </>

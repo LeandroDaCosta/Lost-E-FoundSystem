@@ -1,10 +1,10 @@
 import './App.css';
 import Home from "./componentes/Home";
-import Header from "./componentes/Header";
+import Achado from './componentes/Achado';
 function App() {
   return (
     <div className='body'>
-    <Home></Home>
+      <Home></Home>
     </div>
   );
 }

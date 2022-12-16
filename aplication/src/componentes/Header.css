@@ -35,3 +35,13 @@
     background-color: white;
     color: #FFD747;
 }
+.image{
+    width: 200px;
+    height: 200px;
+}
+.perfil{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 500px;
+}
