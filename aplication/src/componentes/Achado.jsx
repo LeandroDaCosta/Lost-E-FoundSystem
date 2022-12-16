@@ -16,7 +16,7 @@ function Achado(){
 
                  <FormAchado></FormAchado>
 
-                <Footer></Footer>
+                <Footer></Footer> 
         </div>
     )
 }
