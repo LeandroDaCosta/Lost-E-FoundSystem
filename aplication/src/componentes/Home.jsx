@@ -11,7 +11,6 @@ function Home(){
 
         <div className="img-back"> 
         
-            <img src={require("../images/fundo2.jpg")} className='ima' alt=""></img>
 
         </div>
            <Slides></Slides> 
