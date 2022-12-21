@@ -13,7 +13,15 @@ function Header (){
         <p>Perdi</p>
 <p>Encontrei</p>
         
-<div className='perfil'>  </div>
+<div className='perfil'> 
+<div className='submenu-perfil'>
+    <buttom className="submenu-btn">Perfil</buttom>
+    <buttom className="submenu-btn">Iniciar sessao</buttom>
+    <buttom className="submenu-btn">Sair</buttom>
+</div>
+ </div>
+
+
         </div>
     </div>
     </>

@@ -2,15 +2,17 @@
     
 }
 .img-back{
-    height: 30vh;
+    height: 50vh;
     width: 100%;
     background-color: rgb(42, 255, 4);
     background-repeat: no-repeat;
+    background-size:cover;
    background-image: url("../images/fundo2.jpg");
     
 
     left:20px;
 }
+
 .arrow{
     font-size: 10px;
 }
