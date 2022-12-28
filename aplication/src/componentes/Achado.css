@@ -3,5 +3,11 @@
     width: 100%;
     background-color: aqua;
     background-repeat: no-repeat;
+    position: absolute;
     
+}
+.espaco{
+    height: 35vh;
+    width: 30vh;
+
 }

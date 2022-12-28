@@ -8,6 +8,7 @@ function Achado(){
     return(
         <div>
                 <Header></Header>
+                
                 <div className="img-back"> 
         
                         <img src={require("../images/fundo3.jpg")} className='ima' alt=""></img>
@@ -16,7 +17,7 @@ function Achado(){
                  </div>
 
                  <FormAchado></FormAchado>
-
+                <div className='espaco'></div>
                 <Footer></Footer> 
         </div>
     )

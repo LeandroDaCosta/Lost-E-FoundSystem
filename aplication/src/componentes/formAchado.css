@@ -1,0 +1,77 @@
+
+.formaPrincipal{
+    width: 904px;
+    height: 704px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    margin-left: 40vh;
+    margin-top: -43vh;
+    position: absolute;
+    border-radius: 35px;
+    box-shadow: 0px 6px 14px -6px ;
+    align-items: center;
+}
+.formulario{
+    width: 554px ;
+    height: 441px;
+    background-color: #f3f3f3;
+    
+    margin-left: 19%;
+    margin-top: 15%;
+    border-radius: 20px;
+
+
+}
+
+.teste{
+    margin-left: 18%;
+    
+}
+button:hover{
+    background-color: #b38b09;
+}
+
+.formu{
+    
+    
+    display: inline;
+    
+}
+
+input{
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    border-radius: 17px;
+    border: none;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+button{
+    background-color: #FFD747;
+    width: 319px;
+    height: 45px;
+    border: none;
+    border-radius: 17px;
+    color: white;
+    margin-left: 5%;
+}
+.carrega{
+    width: 138px;
+    height: 136px;
+    background-color: #d9d9d9;
+    color: #9d9d9d;
+}
+.carrega1{
+    width: 138px;
+    height: 136px;
+    background-color: #d9d9d9;
+    color: #9d9d9d;
+    margin-left: 10%;
+    float: right;
+}
+.pai{
+    margin-top: 5%;
+    display: flex;
+    margin-left:5%;
+}
