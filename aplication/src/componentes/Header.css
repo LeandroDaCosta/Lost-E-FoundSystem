@@ -95,3 +95,11 @@ text-decoration: none;
 .submenu-btn:hover{
     background-color: #ffd74791;
 }
+.lin{
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
