@@ -9,7 +9,7 @@ import MenuAchados from './componentes/MenuAchados';
 function App() {
   return (
     <div className='body'>
-    <MenuAchados></MenuAchados>
+    <Categorias/>
     </div>
   );
 }

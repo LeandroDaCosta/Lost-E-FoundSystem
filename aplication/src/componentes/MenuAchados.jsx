@@ -10,7 +10,7 @@ export default function MenuAchados() {
     <>
     <Header></Header>
     <div className="content">
-    <h2 className='txt'>Menu achados</h2>
+    <h1 className='txt'>Menu achados</h1>
     <div className='box-content'> 
     <div className='box'>
             <p className='txt-1'> Ver itens </p>

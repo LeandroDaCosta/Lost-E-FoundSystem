@@ -8,19 +8,19 @@ export default function Categorias() {
   <>
   <Header></Header>
   
-    <div className="content">
-    <h2 className='txt'>CATEGORIAS</h2>
-        <div className='box'>
-            <p className='txt-1'> Eletrónicos</p>
-            <button className='btn'>Ver mais</button>
+    <div className="contentt">
+    <h2 className='txtt'>CATEGORIAS</h2>
+        <div className='boxx'>
+            <p className='txtt-1'> Eletrónicos</p>
+            <button className='btnn'>Ver mais</button>
             </div>  
-            <div className='box-2'>
-            <p className='txt-1'> Documentos</p>
-            <button className='btn'>Ver mais</button>
+            <div className='boxx-2'>
+            <p className='txtt-1'> Documentos</p>
+            <button className='btnn'>Ver mais</button>
             </div>  
-            <div className='box-3'>
-            <p className='txt-1'> Outros</p>
-            <button className='btn'>Ver mais</button>
+            <div className='boxx-3'>
+            <p className='txtt-1'> Outros</p>
+            <button className='btnn'>Ver mais</button>
             </div>  
     </div>
     <Footer></Footer>

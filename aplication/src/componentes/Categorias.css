@@ -1,7 +1,7 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.content{
+.contentt{
     display: flex;
     
     align-items: center;
@@ -11,47 +11,50 @@
     width: 100wh;
     margin-bottom: 30px;
 }
-.box{
+.boxx{
     margin-top: 25px;
     margin-bottom: 8px;
     height: 360px;
     width: 790px;
     border-radius: 10px;
-    background-image: url("../images/computer-peripherals-laptop-accessories-composition-stone-counter-82724189.jpg");
+    background-image: url("../images/weird-gadgets.jpeg");
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 30px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-size: cover;
 }
 
-.box-2{
+.boxx-2{
     margin-top: 25px;
     margin-bottom: 8px;
     height: 360px;
     width: 790px;
     border-radius: 10px;
-    background-image: url("../images/shutterstock_794573677.jpg");
+    background-image: url("../images/3-20-14.jpg");
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 30px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-size: cover;
 }
-.box-3{
+.boxx-3{
     margin-top: 25px;
     margin-bottom: 8px;
     height: 360px;
     width: 790px;
     border-radius: 10px;
-    background-image: url("../images/istockphoto-904268154-612x612.jpg");
+    background-image: url("../images/slider-newspaper.jpg");
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 30px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-size: cover;
 }
-.txt{
+.txtt{
     margin-top: 30px;
     margin-right: 550px;
     border-bottom: 3px solid;
@@ -61,7 +64,7 @@
     border-bottom-width: 1px;
     border-color:#D9D9D9;
 }
-.btn{
+.btnn{
     width: 100px;
     height: 30px;
     background-color:white;
@@ -73,7 +76,7 @@ cursor: pointer;
     background-color:rgb(217, 217, 217);
  
 }
-.txt-1{
+.txtt-1{
     font-size: 60px;
     color:white;
 }

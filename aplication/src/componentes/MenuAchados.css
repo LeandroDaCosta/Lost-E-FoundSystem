@@ -19,12 +19,13 @@
     width: 490px;
     margin-left: 60px;
     border-radius: 10px;
-    background-image: url("../images/computer-peripherals-laptop-accessories-composition-stone-counter-82724189.jpg");
+    background-image: url("../images/weird-gadgets.jpeg");
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 30px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-size: cover;
 }
 .box:hover{
     cursor: pointer;
@@ -38,7 +39,7 @@ background-color: aqua;
     height: 260px;
     width: 490px;
     border-radius: 10px;
-    background-image: url("../images/photo-1583521214690-73421a1829a9.jpg");
+    background-image: url("../images/3-20-14.jpg");
     display: flex;
     justify-content:space-between;
     align-items: center;
