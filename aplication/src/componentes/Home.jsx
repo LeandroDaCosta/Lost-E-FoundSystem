@@ -16,7 +16,7 @@ function Home(){
            <Slides></Slides> 
 
         
-            <div className="home-text">Encontra aqui o que voce perdeu </div>
+            <div className="home-text">Encontra aqui o que voce perdeu! </div>
             <Footer></Footer>
         </div>
 
