@@ -81,6 +81,7 @@
 }
 .submenu-btn{
     background-color: #FFD747;
+    color: white;
     width:210px;
     height:40px;
     font-size: 15px;
@@ -89,6 +90,7 @@
 display: flex;
 justify-content: center;
 align-items: center;
+text-decoration: none;
 }
 .submenu-btn:hover{
     background-color: #ffd74791;

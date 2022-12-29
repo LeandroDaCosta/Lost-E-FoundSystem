@@ -1,13 +1,13 @@
 import './App.css';
-//import Achado from './componentes/Achado';
+import Achado from './componentes/Achado';
 //import Login from './componentes/Login';
-import Home from "./componentes/Home";
+//import Home from "./componentes/Home";
 //import Registo from './componentes/Registo';
 
 function App() {
   return (
     <div className='body'>
-      <Home></Home>
+      <Achado></Achado>
     </div>
   );
 }

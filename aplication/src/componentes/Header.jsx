@@ -15,9 +15,9 @@ function Header (){
         
 <div className='perfil'> 
 <div className='submenu-perfil'>
-    <buttom className="submenu-btn">Perfil</buttom>
-    <buttom className="submenu-btn">Iniciar sessao</buttom>
-    <buttom className="submenu-btn">Sair</buttom>
+    <a href='a' className="submenu-btn">Perfil</a>
+    <a href='a' className="submenu-btn">Iniciar sessao</a>
+    <a href='a' className="submenu-btn">Sair</a>
 </div>
  </div>
 
