@@ -6,19 +6,19 @@ function Header (){
     <div className='header'>
         <div className='logo-home'>
 
-<img src={require("../images/Encontralogo.png")} alt="" className='image'></img>
+  <Link to={'/'}>  <img src={require("../images/Encontralogo.png")} alt="" className='image'></img></Link>
 
     <div className='home-style'><Link to={'/'}><p> Home</p></Link></div>
         </div>
         <div className='others'>
-        <a href='a' className='lin'>Perdi</a>
-        <Link to={'/Achado'}> <a href='#a' className='lin'> Encontrei</a></Link>
+      <Link to={'/Perdi'}>  <a href='a' className='lin' >Perdidos</a> </Link>
+        <Link to={'/Achado'}> <a href='#a' className='lin' > Achados</a></Link>
         
 <div className='perfil'> 
 <div className='submenu-perfil'>
-    <a href='a' className="submenu-btn">Perfil</a>
+    <p  className="submenu-btn">Perfil</p>
    <Link to={'/Login'}>   <a href='a' className="submenu-btn">Iniciar sessao</a></Link>
-    <a href='a' className="submenu-btn">Sair</a>
+    <p  className="submenu-btn">Sair</p>
 </div>
  </div>
 

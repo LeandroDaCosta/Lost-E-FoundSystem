@@ -21,10 +21,13 @@
     height: 704px;
     border-radius: 35px;
     background-color: white;
-    box-shadow: 0px 6px 14px -6px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.Formulario:hover{
+
+    box-shadow: 0px 6px 14px -6px;
 }
 
 .carregarImg{
@@ -51,7 +54,7 @@
     align-items: center;
     justify-content: center;
 }
-input{
+.tTex{
     background-color: white;
         color: 969696;
         border: none;
@@ -59,9 +62,10 @@ input{
         height: 45px;
         border-radius: 17px;
         margin-top: 5%;
+        text-indent: 5%;
     
 }
-button{
+#reg{
     background-color: #FFD747;
         color: white;
         border: none;
@@ -73,12 +77,14 @@ button{
 #esq{
         width: 151px;
         height: 45px;
-        margin-left: -41%;
+        margin-left: -37%;
+        text-indent: 10%;
         
 }
 #dir{
     width: 151px;
     height: 45px;
     margin-top: -11%;
-    margin-left: 41%;
+    margin-left: 44%;
+    text-indent: 10%;
 }

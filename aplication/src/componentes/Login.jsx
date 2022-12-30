@@ -1,5 +1,5 @@
 import './Login.css'
-
+import { Link } from 'react-router-dom';
 
 function Login (){
     return(
@@ -13,7 +13,7 @@ function Login (){
                     
                     <button className='bbtn'> Entrar</button>
                     
-                    <button className='bbtn'>Registar</button>
+                   <Link to={'/Registar'}> <button className='bbtn'>Registar</button></Link> 
                     <br />
                     <a className='fsenha' href=' ' >Esqueceu a sua senha?</a>
                 </form>

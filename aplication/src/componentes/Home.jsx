@@ -19,7 +19,8 @@ function Home(){
 
 
         <div className="img-back"> 
-        
+
+                <input id="pesquisa" placeholder="Pesquisar..." type="text" />
 
         </div>
            <Slides></Slides> 

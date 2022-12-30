@@ -1,11 +1,17 @@
-.img-background{
+
+
+.img-backg {
     height: 50vh;
     width: 100%;
-    background-color: aqua;
-    background-repeat: no-repeat;
-    position: absolute;
     
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/fundo3.jpg");
+
+
+    left: 20px;
 }
+
 .espaco{
     height: 35vh;
     width: 30vh;

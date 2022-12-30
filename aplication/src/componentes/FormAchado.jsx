@@ -29,7 +29,7 @@ function FormAchado(){
                     </div>
                     </div>
                     <br /> <br />
-                    <button type="submit">Registar Item</button>
+                    <button id="regI" type="submit">Registar Item</button>
 
             </form>
 

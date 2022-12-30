@@ -15,11 +15,11 @@ function Registo(){
                 <form action="" className='form'>
                         <input type="text" placeholder='Primeiro Nome' id='esq'/>
                         <input type="text" placeholder='Ultimo Nome' id='dir'/>
-                        <input type="text" placeholder='Email Institucional'/>
-                        <input type="text" placeholder='Telefone'/>
-                        <input type="password" placeholder='Palavra-Passe'/>
-                        <input type="password" placeholder='Confirme a Passe'/>
-                        <button>Registar e Entrar</button>
+                        <input className='tTex' type="text" placeholder='Email Institucional'/>
+                        <input className='tTex' type="text" placeholder='Telefone'/>
+                        <input className='tTex' type="password" placeholder='Palavra-Passe'/>
+                        <input className='tTex' type="password" placeholder='Confirme a Passe'/>
+                        <button id='reg'>Registar e Entrar</button>
                 </form>
 
             </div>
