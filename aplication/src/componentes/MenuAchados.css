@@ -1,0 +1,71 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+  
+    height: 440px;
+    width: 100wh;
+    margin-bottom: 30px;
+}
+.box{
+    margin-top: 25px;
+    margin-bottom: 8px;
+    height: 260px;
+    width: 490px;
+    margin-left: 60px;
+    border-radius: 10px;
+    background-image: url("../images/weird-gadgets.jpeg");
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+.box:hover{
+    cursor: pointer;
+background-color: aqua;
+}
+.box-2{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    margin-right: 40px;
+    height: 260px;
+    width: 490px;
+    border-radius: 10px;
+    background-image: url("../images/3-20-14.jpg");
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.box-content{
+
+height: 360px;
+display: flex;
+justify-content: space-around;
+margin: 20px;
+}
+.txt{
+    margin-top: 30px;
+    margin-right: 550px;
+    border-bottom: 3px solid;
+    padding-right: 200px;
+    color:black;
+    font-weight: lighter;
+    border-bottom-width: 1px;
+    border-color:#D9D9D9;
+}
+
+.txt-1{
+    font-size: 60px;
+    color:white;
+}
