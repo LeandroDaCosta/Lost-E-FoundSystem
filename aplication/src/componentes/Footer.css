@@ -1,4 +1,9 @@
 .home-bottom{
+
+
+
+    position: static;
+    
     display: flex;
     height: 350px;
 width: 100%;
@@ -6,6 +11,8 @@ color: white;
 background-color:#0f0f0f;
 justify-content: center;
 align-items: center;
+
+
 }
 
 .home-bottom-1{

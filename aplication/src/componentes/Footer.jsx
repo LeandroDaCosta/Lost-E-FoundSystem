@@ -3,7 +3,7 @@ import "./Footer.css"
 function Footer(){
     return(
         <div className="home-bottom">
-                <img src= {require("../images/Encontralogo.png")} className="home-bottom-1"></img>
+                <img src= {require("../images/Encontralogo.png")} alt='' className="home-bottom-1"></img>
                 <div className="home-bottom-2"> 
                 <h2>Sobre nos</h2>
                 <p>Uma pequena equipa</p>
