@@ -1,12 +1,12 @@
 
 import React from 'react'
-import Header from './Header'
+//import Header from './Header'
 import './Categorias.css'
-import Footer from "./Footer"
+//import Footer from "./Footer"
 export default function Categorias() {
   return (
   <>
-  <Header></Header>
+  
   
     <div className="contentt">
     <h2 className='txtt'>CATEGORIAS</h2>
@@ -23,7 +23,7 @@ export default function Categorias() {
             <button className='btnn'>Ver mais</button>
             </div>  
     </div>
-    <Footer></Footer>
+    
     </>
   )
 }

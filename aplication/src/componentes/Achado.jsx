@@ -9,7 +9,7 @@ function Achado(){
         <div>
             
                 
-                <div className="img-back"> 
+                <div className="img-backg"> 
         
                         <img src={require("../images/fundo3.jpg")} className='ima' alt=""></img>
                         <div></div>

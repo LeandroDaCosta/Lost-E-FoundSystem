@@ -31,16 +31,30 @@
 .home-style:hover{
     cursor: pointer;
     font-size: 20px;
-    height: 80%;
-    border: 1px;
-    border-radius: 2px;
-    padding: 1;
+    height: 80%; 
+    border-radius: 9px;
+    width: 20%;
     display:flex;
     justify-content: center;
-   align-items: center;
-    background-color: white;
-    color: #FFD747;
+    align-items: center;
+    background-color: #C19C17;
+    
+    
 }
+
+.lin:hover{
+    cursor: pointer;
+        font-size: 20px;
+        height: 100%;
+        padding: 14%;
+        border-radius: 9px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #C19C17;
+}
+
 .image{
     width: 200px;
     height: 200px;
