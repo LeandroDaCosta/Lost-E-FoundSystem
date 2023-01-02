@@ -1,10 +1,11 @@
-import Header from "./Header"
+
+
 import "./ListarEncontrados.css"
-import Footer from "./Footer"
+
 function ListarEncontrados(){
     return(
     <>
-    <Header/>
+    
     <div className="txt-top">
         <p className="txt-top-2"> ELETRONICOS</p>
         <p className="txt-top-3"> ANUNCIOS</p>
@@ -30,7 +31,7 @@ function ListarEncontrados(){
             </div>
            
          </div>
-         <Footer></Footer>
+         
 
 </>
     )
