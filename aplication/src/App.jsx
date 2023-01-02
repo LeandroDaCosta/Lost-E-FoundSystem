@@ -11,6 +11,7 @@ import {BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom
 import Categorias from './componentes/Categorias';
 import MenuAchados from './componentes/MenuAchados';
 import Registo from './componentes/Registo';
+import ListarEncontrados from './componentes/ListarEncontrados';
 //import Login from './componentes/Login';
 //import Registo from './componentes/Registo';
 
@@ -32,6 +33,12 @@ function App() {
             <Route path='/Registar' element={<Registo></Registo>}></Route>
             <Route path='/Detalhe' element={<Detalhe></Detalhe>}></Route>
            
+            <Route path='/Eletronicos' element={<ListarEncontrados></ListarEncontrados>}></Route>
+            <Route path='/Documentos' element={<ListarEncontrados></ListarEncontrados>}></Route>
+            <Route path='/Outros' element={<ListarEncontrados></ListarEncontrados>}></Route>
+
+
+
         </Routes>
       </Router>
 
