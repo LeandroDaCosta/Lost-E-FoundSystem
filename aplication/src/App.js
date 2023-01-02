@@ -5,11 +5,12 @@ import Home from "./componentes/Home";
 import Categorias from './componentes/Categorias';
 import MenuAchados from './componentes/MenuAchados';
 //import Registo from './componentes/Registo';
+import ListarEncontrados  from './componentes/ListarEncontrados';
 
 function App() {
   return (
     <div className='body'>
-    <Categorias/>
+    <ListarEncontrados/>
     </div>
   );
 }
