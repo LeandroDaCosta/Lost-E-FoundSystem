@@ -1,14 +1,12 @@
 
 import React from 'react'
 import './MenuAchados.css'
-import Home from "./Home"
-import Header from './Header'
-import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
 export default function MenuAchados() {
   return (
     <>
-    <Header></Header>
+    
     <div className="content">
     <h1 className='txt'>Menu achados</h1>
     <div className='box-content'> 
@@ -17,14 +15,14 @@ export default function MenuAchados() {
            
             </div>  
             <div className='box-2'>
-            <p className='txt-1'> Adicionar itens</p>
+            <Link to={'/itemAchado'}>  <p className='txt-1'> Adicionar itens</p></Link>
            
             </div>  
     </div>
         
            
     </div>
-   <Footer/>
+    
     </>
   )
 }

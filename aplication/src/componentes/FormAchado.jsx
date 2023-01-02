@@ -20,11 +20,16 @@ function FormAchado(){
                     <br />
                     <div className="pai">
 
-                    <div className="carrega"></div>
-                    <div className="carrega1"></div>
+                    <div className="carrega">
+                        <p>Carregar Imagem</p>
+                    </div>
+
+                    <div className="carrega1">
+                        <p>Carregar Imagem</p>
+                    </div>
                     </div>
                     <br /> <br />
-                    <button type="submit">Registar Item</button>
+                    <button id="regI" type="submit">Registar Item</button>
 
             </form>
 

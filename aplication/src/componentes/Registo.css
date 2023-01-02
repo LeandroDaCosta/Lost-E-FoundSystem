@@ -2,11 +2,89 @@
     background-color: #FFD747 ;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #logo {
 
-    margin-top: -7%;
-    height: 445px;
-    margin-left: 37%;
+    margin-top: -10%;
+    height: 350px;
+    width: 350px;
+}
+
+
+.Formulario{
+    margin-top: -6%;
+    width: 903px;
+    height: 704px;
+    border-radius: 35px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Formulario:hover{
+
+    box-shadow: 0px 6px 14px -6px;
+}
+
+.carregarImg{
+    border-radius: 200px;
+    width: 209px;
+    height: 209px;
+    background-color: #d9d9d9;
+    color: #9d9d9d;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form{
+    width: 409px;
+    height: 481px;
+    background-color: #f3f3f3; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tTex{
+    background-color: white;
+        color: 969696;
+        border: none;
+        width: 319px;
+        height: 45px;
+        border-radius: 17px;
+        margin-top: 5%;
+        text-indent: 5%;
     
+}
+#reg{
+    background-color: #FFD747;
+        color: white;
+        border: none;
+        width: 319px;
+        height: 45px;
+        border-radius: 17px;
+        margin-top: 5%;
+}
+#esq{
+        width: 151px;
+        height: 45px;
+        margin-left: -37%;
+        text-indent: 10%;
+        
+}
+#dir{
+    width: 151px;
+    height: 45px;
+    margin-top: -11%;
+    margin-left: 44%;
+    text-indent: 10%;
 }

@@ -47,7 +47,7 @@ input{
     margin-left: 5%;
     margin-top: 5%;
 }
-button{
+regI{
     background-color: #FFD747;
     width: 319px;
     height: 45px;
@@ -57,18 +57,24 @@ button{
     margin-left: 5%;
 }
 .carrega{
+    display: flex;
     width: 138px;
     height: 136px;
     background-color: #d9d9d9;
     color: #9d9d9d;
+    justify-content: center;
+    align-items: center;
 }
 .carrega1{
+    display: flex;
     width: 138px;
     height: 136px;
     background-color: #d9d9d9;
     color: #9d9d9d;
     margin-left: 10%;
     float: right;
+    justify-content: center;
+    align-items: center;
 }
 .pai{
     margin-top: 5%;

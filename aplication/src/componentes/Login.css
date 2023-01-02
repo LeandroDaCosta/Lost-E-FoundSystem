@@ -5,36 +5,39 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    
+    display: flex;
+    flex-direction: column;
     
 }
 #logo{
-    margin-top: -6%;
+    margin-top: -26%;
     height: 445px;
-    margin-left: 37%;
-    position: absolute;
+    
 }
 .formL{
-    justify-content: center;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
     width: 524px;
     height: 551px;
     background-color: #F3F3F3;
     border-radius: 20px;
-    margin-left: 35%;
-    margin-top: 15%;
-    position: absolute;
+    
 }
-input{
+.campoText{
     background-color: white;
-    color: 969696;
+    color: #969696;
     border: none;
     width: 438px;
     height: 62px;
     border-radius: 17px;
     margin-top: 5%;
+    margin-left: 8%;
+    text-indent: 5%;
 }
-button{
+.bbtn{
     background-color: #FFD747;
         color: white;
         border: none;
@@ -42,21 +45,23 @@ button{
         height: 62px;
         border-radius: 17px;
         margin-top: 5%;
+        margin-left: 8%;
 }
 form{
-    margin-top: 20%;
+    margin-top: 0%;
 }
- a{
+ .fsenha{
     margin-left: 30%;
     text-decoration: none;
     color: #FFD747;
+    margin-bottom: -50%;
  }
  .formL:hover{
     box-shadow: 0px 6px 14px -6px;
  }
- button:hover{
+ .bbtn:hover{
     background-color: #b38b09;
  }
- a:hover{
+ .fsenha:hover{
     color: #b38b09;
  }

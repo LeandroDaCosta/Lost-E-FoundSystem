@@ -1,23 +1,24 @@
 import './Header.css';
+import { Link } from 'react-router-dom';
 function Header (){
     return (
     <>
     <div className='header'>
         <div className='logo-home'>
 
-<img src={require("../images/Encontralogo.png")} alt="" className='image'></img>
+  <Link to={'/'}>  <img src={require("../images/Encontralogo.png")} alt="" className='image'></img></Link>
 
-<div className='home-style'><p> Home</p></div>
+    <div className='home-style'><Link to={'/'}><p> Home</p></Link></div>
         </div>
         <div className='others'>
-        <p>Perdi</p>
-<p>Encontrei</p>
+      <Link to={'/Perdi'}>  <a href='a' className='lin' >Perdidos</a> </Link>
+        <Link to={'/Achado'}> <a href='#a' className='lin' > Achados</a></Link>
         
 <div className='perfil'> 
 <div className='submenu-perfil'>
-    <buttom className="submenu-btn">Perfil</buttom>
-    <buttom className="submenu-btn">Iniciar sessao</buttom>
-    <buttom className="submenu-btn">Sair</buttom>
+    <p  className="submenu-btn">Perfil</p>
+   <Link to={'/Login'}>   <a href='a' className="submenu-btn">Iniciar sessao</a></Link>
+    <p  className="submenu-btn">Sair</p>
 </div>
  </div>
 

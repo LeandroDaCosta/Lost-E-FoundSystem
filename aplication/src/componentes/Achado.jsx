@@ -1,15 +1,15 @@
 
 import './Achado.css'
-import Header from './Header';
-import Footer from './Footer';
+//import Header from './Header';
+//import Footer from './Footer';
 import FormAchado from './FormAchado';
 
 function Achado(){
     return(
         <div>
-                <Header></Header>
+            
                 
-                <div className="img-back"> 
+                <div className="img-backg"> 
         
                         <img src={require("../images/fundo3.jpg")} className='ima' alt=""></img>
                         <div></div>
@@ -18,7 +18,7 @@ function Achado(){
 
                  <FormAchado></FormAchado>
                 <div className='espaco'></div>
-                <Footer></Footer> 
+                
         </div>
     )
 }

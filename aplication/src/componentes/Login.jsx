@@ -1,5 +1,5 @@
 import './Login.css'
-
+import { Link } from 'react-router-dom';
 
 function Login (){
     return(
@@ -7,15 +7,15 @@ function Login (){
             <img id='logo' src={require("../images/Encontralogo.png")} alt="" />
             <div className='formL'>
                 <form action="">    
-                    <input type="text" placeholder='Email Institucional'/>
+                    <input className='campoText' type="text" placeholder='Email Institucional'/>
+                    
+                    <input className='campoText' type="password" placeholder='Palavra-Passe'/>
+                    
+                    <button className='bbtn'> Entrar</button>
+                    
+                   <Link to={'/Registar'}> <button className='bbtn'>Registar</button></Link> 
                     <br />
-                    <input type="password" placeholder='Palavra-Passe'/>
-                    <br />
-                    <button>Entrar</button>
-                    <br />
-                    <button>Registar</button>
-                    <br /> <br />
-                    <a href=' ' >Esqueceu a sua senha?</a>
+                    <a className='fsenha' href=' ' >Esqueceu a sua senha?</a>
                 </form>
             </div>
         </div>
