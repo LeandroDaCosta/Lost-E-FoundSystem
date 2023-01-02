@@ -1,10 +1,5 @@
 
 import "./Home.css";
-
-
-
-
-
 //import Header from "./Header"
 import Slides from "./Slides"
 //import Footer from "./Footer";

@@ -1,0 +1,28 @@
+.cont{
+   
+
+}
+
+.desc{
+    position: relative;
+    height: 185px;
+    margin-left: 140px;
+  bottom:0px;
+width: 700px;
+background-color:rgb(236, 236, 236);
+
+justify-content: center;
+border-radius: 7px;
+
+
+}
+.btn-eliminar{
+    bottom:150px;
+    top: 20px;
+   left: 420px;
+    position: relative;
+    color: white;
+    height: 55px;
+    width: 190px;
+    background-color:#FFD747;
+}

@@ -1,7 +1,10 @@
 .component-style-right{
+    position: relative;
+    bottom: 207px;
     height: 385px;
+    left: 950px;
 width: 300px;
 background-color:rgb(236, 236, 236);
-margin-bottom: 50px;
+
 border-radius: 7px;
 }

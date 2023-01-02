@@ -7,7 +7,7 @@ export default function Items(props) {
   return (
     <>
     <div className="txt-top">
-        <p className="txt-top-2"> {props.categoria}</p>
+        <p className="txt-top-2"> ELETRONICOS</p>
         <p className="txt-top-3"> ANUNCIOS</p>
     </div>
     <div className="items-components">
@@ -26,10 +26,10 @@ export default function Items(props) {
            
      
             </div>
-          <Anuncios/>
+          
            
          </div>
-         
+        
 
     </>
   )
