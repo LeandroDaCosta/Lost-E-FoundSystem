@@ -13,6 +13,7 @@ import MenuAchados from './componentes/MenuAchados';
 import Registo from './componentes/Registo';
 import ListarEncontrados from './componentes/ListarEncontrados';
 import ItemReivindicado from './componentes/ItemReivindicado';
+import VerItens from './componentes/VerItens';
 //import Login from './componentes/Login';
 //import Registo from './componentes/Registo';
 
@@ -37,7 +38,8 @@ function App() {
             <Route path='/Eletronicos' element={<ListarEncontrados></ListarEncontrados>}></Route>
             <Route path='/Documentos' element={<ListarEncontrados></ListarEncontrados>}></Route>
             <Route path='/Outros' element={<ListarEncontrados></ListarEncontrados>}></Route>
-            <Route path='/leandro' element={<ItemReivindicado></ItemReivindicado>}></Route>
+            <Route path='/VerItens' element={<VerItens></VerItens>}></Route>
+            <Route path='/Apagar' element={<ItemReivindicado></ItemReivindicado>}></Route>
 
 
 

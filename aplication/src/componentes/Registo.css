@@ -73,6 +73,10 @@
         height: 45px;
         border-radius: 17px;
         margin-top: 5%;
+        margin-left: 5%;
+}
+#reg:hover{
+    background-color: #b38b09;
 }
 #esq{
         width: 151px;

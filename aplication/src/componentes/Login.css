@@ -47,14 +47,17 @@
         margin-top: 5%;
         margin-left: 8%;
 }
+#iReg{
+    margin-bottom: 5%;
+}
 form{
     margin-top: 0%;
 }
  .fsenha{
-    margin-left: 30%;
+    margin-left: 35%;
     text-decoration: none;
     color: #FFD747;
-    margin-bottom: -50%;
+    top: 5vh;
  }
  .formL:hover{
     box-shadow: 0px 6px 14px -6px;

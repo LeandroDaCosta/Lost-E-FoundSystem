@@ -1,10 +1,7 @@
-.content-style{
-    
-}
+
 .img-back{
     height: 50vh;
     width: 100%;
-    background-color: rgb(42, 255, 4);
     background-repeat: no-repeat;
     background-size:cover;
    background-image: url("../images/fundo2.jpg");
@@ -19,7 +16,7 @@
     border-radius: 30px;
     width: 383px;
     height: 50px;
-    color: #c9c9c9;
+    color: #6a6a6a;
     display: flex;
     align-items: center;
     justify-content: center;

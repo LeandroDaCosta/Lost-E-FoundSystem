@@ -8,7 +8,7 @@
     flex-direction: column;
   
     height: 640px;
-    width: 100wh;
+    
     margin-bottom: 30px;
 }
 .boxx{
@@ -72,9 +72,11 @@
 border-radius: 9px;
 font-size: 15px;
 cursor: pointer;
+border: none;
 }
-.btn:hover{
-    background-color:rgb(217, 217, 217);
+.btnn:hover{
+    background-color: #FFD747 ;
+    color: white;
  
 }
 .txtt-1{

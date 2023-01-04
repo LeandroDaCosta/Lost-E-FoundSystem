@@ -13,7 +13,7 @@ function Login (){
                     
                     <button className='bbtn'> Entrar</button>
                     
-                   <Link to={'/Registar'}> <button className='bbtn'>Registar</button></Link> 
+                   <Link to={'/Registar'}> <button className='bbtn' id='iReg'>Registar</button></Link> 
                     <br />
                     <a className='fsenha' href=' ' >Esqueceu a sua senha?</a>
                 </form>

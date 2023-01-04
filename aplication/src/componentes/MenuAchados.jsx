@@ -10,14 +10,17 @@ export default function MenuAchados() {
     <div className="content">
     <h1 className='txt'>Menu achados</h1>
     <div className='box-content'> 
-    <div className='box'>
-            <p className='txt-1'> Ver itens </p>
+     
+          <Link Link to={'/verItens'}>    <div className='box'>
+           <p className='txt-1'> Ver itens </p> 
            
-            </div>  
+            </div> </Link>
+            <Link to={'/itemAchado'}> 
             <div className='box-2'>
-            <Link to={'/itemAchado'}>  <p className='txt-1'> Adicionar itens</p></Link>
+             <p className='txt-1'> Adicionar itens</p>
            
-            </div>  
+            </div> 
+            </Link>
     </div>
         
            

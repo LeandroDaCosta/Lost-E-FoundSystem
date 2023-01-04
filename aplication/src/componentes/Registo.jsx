@@ -21,7 +21,7 @@ function Registo(){
                         <input className='tTex' type="password" placeholder='Confirme a Passe'/>
                         <button id='reg'>Registar e Entrar</button>
                 </form>
-
+                
             </div>
         </div>
      )

@@ -27,7 +27,7 @@
     margin-left: 18%;
     
 }
-button:hover{
+#regI:hover{
     background-color: #b38b09;
 }
 
@@ -47,7 +47,7 @@ input{
     margin-left: 5%;
     margin-top: 5%;
 }
-regI{
+#regI{
     background-color: #FFD747;
     width: 319px;
     height: 45px;
