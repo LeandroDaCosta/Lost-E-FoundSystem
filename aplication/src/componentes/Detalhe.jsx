@@ -6,11 +6,13 @@ function Detalhe(){
     return(
         <div className="Gener">
                 <div className="imgItem">
-                    <img className='itemPic' src={require("../images/dims.jpeg")} alt="" />
-                </div>
                     <img src= {require("../images/icons/icons8-chevron-left-30.png")} alt='' className="arrown"></img>
+
+                    <img className='itemPic' src={require("../images/dims.jpeg")} alt="" />
+
+                    <img src= {require("../images/icons/icons8-chevron-left-30 (1).png")} alt='' className="arrown1"></img>
+                </div>
                     
-        <img src= {require("../images/icons/icons8-chevron-left-30 (1).png")} alt='' className="arrown1"></img>
 
                 <h3 className='dt'>Detalhes do Item</h3>
                     <div className='line'></div>

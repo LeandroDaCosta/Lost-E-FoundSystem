@@ -1,0 +1,26 @@
+*{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.general{
+    
+    display: flex;
+    flex-direction: column;
+}
+.titleI{
+    font-size: 40px;
+    margin-top: 10%;
+    bottom: 1px solid;
+    border-bottom: 1px solid #727172;
+}
+.texto-cb{
+  width: 571px;
+  margin-left: 15.6%;
+  margin-bottom:2%;
+}
+.subTexto{
+
+  color: #727172;
+}
+.estraga{
+  color: black;
+}

@@ -1,7 +1,7 @@
 
 import React from 'react'
 import "./DescricaoItem.css"
-import Anuncios from './Anuncios'
+
 export default function DescricaoItem() {
   return (
  <>
@@ -13,11 +13,9 @@ export default function DescricaoItem() {
 esteja em posse do dono por favor clique no
 botao abaixo e elimine .</p>
 </div>
-<button className='btn-eliminar'>ELIMINAR</button>
 
 
 </div>
-<Anuncios></Anuncios>
 
  </>
   )
