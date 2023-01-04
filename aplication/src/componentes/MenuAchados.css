@@ -7,10 +7,10 @@
     
     align-items: center;
     flex-direction: column;
-  
+    margin-top: 3%;
     height: 440px;
     width: 100wh;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
 }
 .box{
     margin-top: 25px;
