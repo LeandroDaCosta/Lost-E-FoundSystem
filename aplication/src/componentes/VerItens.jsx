@@ -16,6 +16,8 @@ export default function VerItens(){
             </div>
 
                <ItemDel></ItemDel>
+               <ItemDel></ItemDel>
+               <ItemDel></ItemDel>
 
        </div>
 

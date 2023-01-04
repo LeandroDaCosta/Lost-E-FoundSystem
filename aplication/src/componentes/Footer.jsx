@@ -14,8 +14,9 @@ function Footer(){
                 <p>aos estudantes do ISPTEC</p>
                 <p></p>
                 </div>
+                
                 <div className="home-bottom-3">
-                    <h2> DESNVOLVIDORES</h2>
+                    <h2> DESENVOLVEDORES</h2>
                 <p>Leandro da Costa</p>
                 <p>Romeno Joao</p>
                </div>
