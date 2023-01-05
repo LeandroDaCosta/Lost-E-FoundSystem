@@ -3,8 +3,11 @@ import "./Home.css";
 //import Header from "./Header"
 import Slides from "./Slides"
 //import Footer from "./Footer";
+import { useLocation } from "react-router-dom";
 
 function Home(){
+    const location=useLocation();
+    
     return (
         <> 
         <div className="content-style">

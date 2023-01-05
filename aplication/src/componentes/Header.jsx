@@ -1,7 +1,10 @@
 import './Header.css';
-import { Link } from 'react-router-dom';
-function Header (){
+import { Link , useLocation} from 'react-router-dom';
+function Header (props){
+    const location=useLocation();
+    
     return (
+        
     <>
     <div className='header'>
         <div className='logo-home'>
@@ -9,11 +12,13 @@ function Header (){
   <Link to={'/'}>  <img src={require("../images/Encontralogo.png")} alt="" className='image'></img></Link>
 
     <div className='home-style'><Link to={'/'}><p> Home</p></Link></div>
+    
         </div>
         <div className='others'>
       <Link to={'/Perdi'}>  <a href='a' className='lin' >Perdidos</a> </Link>
         <Link to={'/Achado'}> <a href='#a' className='lin' > Achados</a></Link>
         
+        <p> Bem-vindo  {props.nome}</p>
 <div className='perfil'> 
 <div className='submenu-perfil'>
     <p  className="submenu-btn">Perfil</p>

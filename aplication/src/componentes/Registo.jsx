@@ -1,7 +1,20 @@
+import { useState } from 'react';
 import './Registo.css'
+import Header from './Header';
+import { Link, useNavigate } from 'react-router-dom';
 
+function Registo(props){
+    const navigate=useNavigate();
+    
+   var [dados,setDados]=useState(" ");
+    const handler=(event)=>{
+        setDados(event.target.value);
+    }
+    const enviaPerfil=()=>{
+        // navigate('/',{state:{nome:dados}})
+       
 
-function Registo(){
+    }
      return(
         <div className='regPrin'>
                 
@@ -13,13 +26,13 @@ function Registo(){
                         <p>(Opcional)</p>
                 </div>
                 <form action="" className='form'>
-                        <input type="text" placeholder='Primeiro Nome' id='esq'/>
+                        <input type="text" placeholder='Primeiro Nome' onChange={handler} id='esq'/>
                         <input type="text" placeholder='Ultimo Nome' id='dir'/>
                         <input className='tTex' type="text" placeholder='Email Institucional'/>
                         <input className='tTex' type="text" placeholder='Telefone'/>
                         <input className='tTex' type="password" placeholder='Palavra-Passe'/>
                         <input className='tTex' type="password" placeholder='Confirme a Passe'/>
-                        <button id='reg'>Registar e Entrar</button>
+                        <button id='reg' onClick={()=>{enviaPerfil()}}>Registar e Entrar</button>
                 </form>
                 
             </div>

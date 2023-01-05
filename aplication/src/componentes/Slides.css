@@ -11,12 +11,13 @@
     margin-left: 30px;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 .box-style{
     height: 195px;
     width: 245px;
     margin-left: 40px;
-    background-color: black;
+    
     border-radius: 20px;
 }
 .box-content{

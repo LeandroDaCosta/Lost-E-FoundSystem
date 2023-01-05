@@ -14,16 +14,18 @@ import Registo from './componentes/Registo';
 import ListarEncontrados from './componentes/ListarEncontrados';
 import ItemReivindicado from './componentes/ItemReivindicado';
 import VerItens from './componentes/VerItens';
+
 //import Login from './componentes/Login';
 //import Registo from './componentes/Registo';
 
-function App() {
+function App(props) {
+  const dat=Registo.dados;
   return (
     <div className='body'>
       
       
       <Router>
-        <Header></Header>
+        <Header nome={dat}></Header>
 
         <Routes>
             <Route path='/' element={<Home></Home>} />
@@ -34,7 +36,7 @@ function App() {
             <Route path='/Login' element={<Navigate to={'Login'} />}> </Route>
             <Route path='/Registar' element={<Registo></Registo>}></Route>
             <Route path='/Detalhe' element={<Detalhe></Detalhe>}></Route>
-           
+            <Route path='/Header' element={<Header></Header>}></Route>
             <Route path='/Eletronicos' element={<ListarEncontrados></ListarEncontrados>}></Route>
             <Route path='/Documentos' element={<ListarEncontrados></ListarEncontrados>}></Route>
             <Route path='/Outros' element={<ListarEncontrados></ListarEncontrados>}></Route>
