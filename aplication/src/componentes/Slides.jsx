@@ -33,7 +33,7 @@ function Slides (){
 
             <img src= {caminho[contador]} alt='' className="box-style"></img>
             <img src= {caminho[contador+1]} alt='' className="box-style"></img>
-            <img src={caminho[contador+2]} className="box-style" ></img>
+            <img src={caminho[contador+2]} alt='' className="box-style" ></img>
 
             <img
             onClick={()=>nextImage()}  

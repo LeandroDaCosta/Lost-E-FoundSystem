@@ -3,10 +3,9 @@ import "./Home.css";
 //import Header from "./Header"
 import Slides from "./Slides"
 //import Footer from "./Footer";
-import { useLocation } from "react-router-dom";
 
 function Home(){
-    const location=useLocation();
+    //const location=useLocation();
     
     return (
         <> 

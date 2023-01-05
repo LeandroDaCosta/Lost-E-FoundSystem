@@ -22,6 +22,9 @@
     margin-right: 11%;
     float: right;
 }
+.btn-eliminar:hover{
+    background-color:#b38b09;
+}
 .posItem{
     margin-left: 6%;
 }
