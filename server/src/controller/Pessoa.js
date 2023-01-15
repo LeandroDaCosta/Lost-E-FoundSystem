@@ -14,7 +14,7 @@ export async function insertPessoa(pessoa){
 
 }
 
-export async function selectPessoa(pessoa){
+export async function selectPessoa(){
    return openDb().then(db=>{
       return  db.all('SELECT * FROM PESSOA')
       .then(res=>res)
@@ -22,3 +22,5 @@ export async function selectPessoa(pessoa){
     });
 
 }
+
+
