@@ -2,7 +2,7 @@ import {openDb} from '../configDB.js';
 export default  async function createTable(){
     openDb().then(db=>{
         db.exec('CREATE TABLE iF NOT EXISTS Pessoa (id INTEGER PRIMARY KEY ,nome TEXT, idade INTEGER ,email TEXT,ultimoNome TEXT)')
-
+//metodo para icriar base de dados 
     })
 
 }
@@ -13,3 +13,14 @@ export async function insertPessoa(pessoa){
     })
 
 }
+
+export async function selectPessoa(){
+   return openDb().then(db=>{
+      return  db.all('SELECT * FROM PESSOA')
+      .then(res=>res)
+//metodo para trazer todas as pessoas da bd 
+    });
+
+}
+
+
