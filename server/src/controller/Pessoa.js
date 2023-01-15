@@ -1,7 +1,7 @@
 import {openDb} from '../configDB.js';
 export default  async function createTable(){
     openDb().then(db=>{
-        db.exec('CREATE TABLE iF NOT EXISTS Pessoa (id INTEGER PRIMARY KEY ,nome TEXT, idade INTEGER ,email TEXT)')
+        db.exec('CREATE TABLE iF NOT EXISTS Pessoa (id INTEGER PRIMARY KEY ,nome TEXT, idade INTEGER ,email TEXT,ultimoNome TEXT)')
 
     })
 

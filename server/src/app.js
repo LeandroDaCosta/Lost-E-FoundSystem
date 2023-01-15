@@ -1,10 +1,10 @@
 import { openDb } from './configDB.js';
 import express from'express';
-// import createTable, { insertPessoa } from './controller/Pessoa.js';
+import createTable, { insertPessoa } from './controller/Pessoa.js';
 const app=express();
 app.use(express.json());
-//  createTable();
-openDb();
+ createTable();
+
 app.get('/',function(req,res){
     res.send("entrando")
 
