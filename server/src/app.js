@@ -1,8 +1,11 @@
 import { openDb } from './configDB.js';
 import express from'express';
+import cors from "cors";
 import createTable, { insertPessoa,selectPessoa } from './controller/Pessoa.js';
 import {  deleteItem, insertItem,selectItem } from './controller/Item.js';
+
 const app=express();
+app.use(cors());
 app.use(express.json());
  createTable();
 

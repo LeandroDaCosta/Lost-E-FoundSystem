@@ -1,14 +1,14 @@
 import {openDb} from '../configDB.js';
 export default  async function createTable(){
     openDb().then(db=>{
-        db.exec('CREATE TABLE iF NOT EXISTS Item (idItem INTEGER PRIMARY KEY ,nome TEXT, local TEXT ,categoria TEXT,imagem TEXT, idp INTEGER)')
+        db.exec('CREATE TABLE iF NOT EXISTS Item (idItem INTEGER PRIMARY KEY ,nome TEXT, local TEXT ,categoria TEXT,imagem TEXT, idp INTEGER, contacto TEXT, data DATA)')
 
     })
 
 }
 export async function insertItem(Item){
     openDb().then(db=>{
-        db.run('INSERT INTO Item (nome,local,categoria,imagem,idp) VALUES(?,?,?,?,? )',[Item.nome,Item.local,Item.categoria,Item.imagem,Item.idp])
+        db.run('INSERT INTO Item (nome,local,categoria,imagem,idp,contacto,data) VALUES(?,?,?,?,?,?,? )',[Item.nome,Item.local,Item.categoria,Item.imagem,Item.idp, Item.contacto ,Item.data])
 //metodo para inserir na base de dados 
     })
 

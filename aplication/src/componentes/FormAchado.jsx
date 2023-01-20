@@ -10,19 +10,23 @@ function FormAchado(){
             <form className="formu">
                     
 
-                    <input type="text" placeholder="O que encontrou?"/>
-                    <input type="text" placeholder="Onde encontrou?"/>
+                    <input className="inp" type="text" placeholder="O que encontrou?"/>
+                    <input className="inp" type="text" placeholder="Onde encontrou?"/>
                     <br />
                     <br />
-                    <input type="text" placeholder="Contacto Preferencial?"/>
-                    <input type='' placeholder="Categoria"/>
+                    <input className="inp"  type="text" placeholder="Contacto Preferencial?"/>
+
+                    <select name="categoria" id="ctg">
+                        <option value="Electronicos">Electronicos</option>
+                        <option value="Documentos">Documentos</option>
+                        <option value="Outros">Outros</option>
+                    </select>
                 
                     <br />
                     <div className="pai">
 
-                    <div className="carrega">
-                        <p>Carregar Imagem</p>
-                    </div>
+
+                    <input className="carrega" type="text" placeholder="Descrição"/>
 
                     <div className="carrega1">
                         <p>Carregar Imagem</p>
