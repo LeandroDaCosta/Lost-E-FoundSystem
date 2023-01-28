@@ -4,7 +4,7 @@ import Anuncios from './Anuncios'
 import Items from "./Items"
 import DescricaoItem from './DescricaoItem'
 import './ItemReivindicado.css'
-export default function ItemReivindicado() {
+export default function ItemReivindicado(props) {
   return (
    <div>
    <div className='textao'>
@@ -13,7 +13,7 @@ export default function ItemReivindicado() {
    </div>
     <div className='posGeral' >  
       <div className='posItem'>
-          <Items/>
+          <Items nome="leando" contacto=":992"/>
       </div >
 
 

@@ -40,7 +40,7 @@ function App(props) {
             <Route path='/Eletronicos' element={<ListarEncontrados></ListarEncontrados>}></Route>
             <Route path='/Documentos' element={<ListarEncontrados></ListarEncontrados>}></Route>
             <Route path='/Outros' element={<ListarEncontrados></ListarEncontrados>}></Route>
-            <Route path='/VerItens' element={<VerItens></VerItens>}></Route>
+            <Route path='/:veritem' element={<VerItens></VerItens>}></Route>
             <Route path='/Apagar' element={<ItemReivindicado></ItemReivindicado>}></Route>
 
 

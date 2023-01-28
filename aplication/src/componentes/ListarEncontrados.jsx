@@ -3,6 +3,8 @@ import "./ListarEncontrados.css"
 import Anuncios from "./Anuncios";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { v4 } from "uuid"
+
 function ListarEncontrados(){
 
     const [items,setItems]=useState([]);
@@ -39,9 +41,24 @@ function ListarEncontrados(){
                 
             }
 
-         <Link to={'/Detalhe'} className='dtlink'>   {items.map((cat)=>(<Items categoria={cat.categoria} nomeItem={cat.nome} nome={cat.local} contacto={cat.contacto} data={cat.data} caminho={cat.imagem} />))  } </Link>
+        <Link to={'/Detalhe'} className='dtlink'>   
+          {items.map(({idp, data, local, imagem, nome, contacto, categoria, caminho})=>(
+            <Items 
+            key={v4()}
+            data={data} 
+            nome={local} 
+            caminho={imagem}
+            nomeItem={nome} 
+            contacto={contacto} 
+            categoria={categoria} 
+            
+            />
+            ))  
+          } 
+        </Link>
         
     </div >
+   
     </div>
 </>
     )

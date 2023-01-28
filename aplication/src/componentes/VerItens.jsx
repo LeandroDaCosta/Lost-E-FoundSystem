@@ -1,8 +1,10 @@
 
+import { useParams } from "react-router-dom";
 import ItemDel from "./ItemDel";
 //import { Link } from "react-router-dom";
 import './VerItens.css';
 export default function VerItens(){
+const {veritem} = useParams();
     return(
        <div className="general">
 
