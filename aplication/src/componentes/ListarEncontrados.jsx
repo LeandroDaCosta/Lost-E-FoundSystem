@@ -1,48 +1,63 @@
-import Items from "./Items"
-import "./ListarEncontrados.css"
+import Items from "./Items";
+import "./ListarEncontrados.css";
 import Anuncios from "./Anuncios";
-import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
-function ListarEncontrados(){
+import { Link, useParams } from "react-router-dom";
+import { useQuery } from "react-query";
+import { api } from "../api/api";
 
-    const [items,setItems]=useState([]);
+function List(props) {
+  const { data, isLoading, isError, error } = useQuery(
+    ["getItemByCategory", props.categoria],
+    () => api.getItemByCategory(props.categoria)
+  );
 
-  
-  useEffect(() => {
-    const getDataFromServer = async () => {
-      const response = await fetch("http://localhost:3000/Item", {method:'GET'});
-      
-      const data = await response.json();
-      setItems(data);
-    };
+  if (isLoading) return <span>Carregando...</span>;
 
-    getDataFromServer();
-  }, []);
-
-  console.log(items);
-
-    return(
+  if (isError) return <span>Erro: {error.message}</span>;
+  if (!data.items) {
+    return <span>Não existe Items dessa categoria</span>;
+  }
+  return (
     <>
+      <Link to={"/Detalhe"} className="dtlink">
+        {" "}
+        {data.items.map((cat) => (
+          <Items
+            categoria={cat.category}
+            nomeItem={cat.nome}
+            nome={cat.local}
+            // contacto={cat.contacto}
+            // data={cat.data}
+            caminho={cat.image}
+          />
+        ))}{" "}
+      </Link>
+    </>
+  );
+}
 
-    <div className="txt-top">
-        <p className="txt-top-2"> ELETRONICOS</p>
+function ListarEncontrados() {
+
+  const { categoria } = useParams();
+
+  return (
+    <>
+      <div className="txt-top">
+        <p className="txt-top-2"> {categoria}</p>
         <p className="txt-top-3"> ANUNCIOS</p>
-    </div>
+      </div>
 
-    <div className="materia">
-    <div id="anun">
-        <Anuncios></Anuncios>
-    </div>
-    <div id="ite">
+      <div className="materia">
+        <div id="anun">
+          <Anuncios></Anuncios>
+        </div>
+        <div id="ite">
+          {}
 
-            {
-                
-            }
-
-         <Link to={'/Detalhe'} className='dtlink'>   {items.map((cat)=>(<Items categoria={cat.categoria} nomeItem={cat.nome} nome={cat.local} contacto={cat.contacto} data={cat.data} caminho={cat.imagem} />))  } </Link>
-        
-    </div >
-    </div>
-</>
-    )
-}export default ListarEncontrados;
+          <List categoria={categoria} />
+        </div>
+      </div>
+    </>
+  );
+}
+export default ListarEncontrados;
