@@ -1,8 +1,9 @@
 
 import Items from "./Items";
 import './itemDel.css'
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import {useEffect,useState} from "react"
+import { v4 } from "uuid"
 function ItemDel(){
         const [items,setItems]=useState([]);
 
@@ -18,10 +19,20 @@ function ItemDel(){
     getDataFromServer();
   }, []);
 
+  const veritem = useParams();
     return(
         <div>
             <div className="cont-pag">
-                <Link to={'/Apagar'} className='estraga'> {items.map((cat)=>(<Items categoria={cat.categoria} nomeItem={cat.nome} nome={cat.local} contacto={cat.contacto} data={cat.data} caminho={cat.imagem} />))  } </Link>
+                <Link to="/apagar" className='estraga'> {items.map((cat)=>(
+                <Items 
+                key={v4()}
+                categoria={cat.categoria} 
+                nomeItem={cat.nome} 
+                nome={cat.local} 
+                contacto={cat.contacto} 
+                data={cat.data} 
+                imgSource={cat.imagem} />))  } 
+                </Link>
           
             </div>
         </div>

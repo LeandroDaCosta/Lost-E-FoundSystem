@@ -59,7 +59,7 @@ app.post('/Item',function(req,res){
     insertItem(req.body)
     //nsere pessoa na tabela
 res.json({
-"statusCode":300
+"statusCode":3000
 
 })
 });

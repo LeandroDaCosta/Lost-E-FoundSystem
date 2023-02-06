@@ -1,6 +1,7 @@
 import Items from "./Items";
 import "./ListarEncontrados.css";
 import Anuncios from "./Anuncios";
+
 import { Link, useParams } from "react-router-dom";
 import { useQuery } from "react-query";
 import { api } from "../api/api";
@@ -44,6 +45,7 @@ function ListarEncontrados() {
       <div className="txt-top">
         <p className="txt-top-2"> {categoria}</p>
         <p className="txt-top-3"> ANUNCIOS</p>
+
       </div>
 
       <div className="materia">

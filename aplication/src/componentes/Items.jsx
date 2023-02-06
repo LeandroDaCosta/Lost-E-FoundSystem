@@ -1,6 +1,7 @@
 
 import React from 'react'
 import "./Items.css"
+
 //import Anuncios from './Anuncios';
 export default function Items(props) {
     //let caminho = "../images/dims.jpeg";

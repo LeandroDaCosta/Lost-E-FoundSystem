@@ -8,7 +8,15 @@ export default  async function createTable(){
 }
 export async function insertItem(Item){
     openDb().then(db=>{
-        db.run('INSERT INTO Item (nome,local,categoria,imagem,idp,contacto,data) VALUES(?,?,?,?,?,?,? )',[Item.nome,Item.local,Item.categoria,Item.imagem,Item.idp, Item.contacto ,Item.data])
+        db.run('INSERT INTO Item (nome,local,categoria,imagem,idp,contacto,data) VALUES(?,?,?,?,?,?,? )'
+        ,[
+            Item.nome,
+            Item.local,
+            Item.categoria,
+            Item.imagem,
+            Item.idp,
+            Item.contacto ,
+            Item.data])
 //metodo para inserir na base de dados 
     })
 
