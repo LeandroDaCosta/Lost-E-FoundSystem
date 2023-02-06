@@ -23,11 +23,10 @@ function List(props) {
         {" "}
         {data.items.map((cat) => (
           <Items
-            categoria={cat.category}
             nomeItem={cat.nome}
             nome={cat.local}
             // contacto={cat.contacto}
-            // data={cat.data}
+             data={cat.created_at}
             caminho={cat.image}
           />
         ))}{" "}

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { useMutation } from "react-query";
 import { api } from "../api/api";
 
@@ -54,11 +54,13 @@ function Login() {
             <button className="bbtn" id="iReg">
               Registar
             </button>
+            {data && <Navigate to="/" replace={true} />}
+           
           </Link>
           <br />
-          <a className="fsenha" href=" ">
+          {/*<a className="fsenha" href=" ">
             Esqueceu a sua senha?
-          </a>
+          </a>*/}
         </form>
       </div>
     </div>
